@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eac374"
+    tools:context=".lfirst">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="47dp"
+        android:layout_height="182dp"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginRight="187dp"
+        android:background="@drawable/straight2">
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="214dp"
+        android:text="Join these dots"
+        android:textColor="#8b1b05"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:layout_width="129dp"
+        android:layout_height="295dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginBottom="3dp">
+
+        <com.rup.alternative.PaintView2
+            android:id="@+id/lpaint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/stline" />
+
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="19dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="19dp"
+            android:layout_height="17dp"
+            android:layout_alignStart="@+id/dot1"
+            android:layout_alignLeft="@+id/dot1"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="113dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="19dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="219dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot4"
+            android:layout_width="21dp"
+            android:layout_height="16dp"
+            android:layout_alignStart="@+id/dot2"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot5"
+            android:layout_width="19dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="169dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/lreset"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="247dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/reset" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/lnext"
+        android:layout_width="57dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="314dp"
+        android:src="@drawable/next" />
+
+</RelativeLayout>

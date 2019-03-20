@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21f472"
+    tools:context=".lthird">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="260dp"
+        android:layout_height="155dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/slanting">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="332dp"
+        android:layout_height="237dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="0dp">
+
+        <com.rup.alternative.PaintView2
+            android:id="@+id/lpaint3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/stline" />
+
+
+        <ImageView
+            android:id="@+id/dot21"
+            android:layout_width="21dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot22"
+            android:layout_width="21dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginRight="134dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot23"
+            android:layout_width="21dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginRight="252dp"
+            android:src="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/dot24"
+            android:layout_width="21dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginRight="83dp"
+            android:src="@drawable/dot" />
+
+
+        <ImageView
+            android:id="@+id/dot25"
+            android:layout_width="21dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="97dp"
+            android:layout_marginEnd="195dp"
+            android:layout_marginRight="195dp"
+            android:src="@drawable/dot" />
+        <ImageView
+            android:id="@+id/lreset3"
+            android:layout_width="134dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/reset" />
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="245dp"
+        android:text="Join these dots"
+        android:textColor="#8b1b05"
+        android:textSize="30dp" />
+
+</RelativeLayout>
